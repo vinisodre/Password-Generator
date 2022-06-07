@@ -1,4 +1,45 @@
 html, body {
-  height: 100%;
-  width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    background:#1c1c1c;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width:100vw;
 }
+
+.container{
+  padding: 0 10%;
+  color:white;
+  background:#1F2937;
+
+}
+
+ .section-top{
+  margin-top: 20%;
+ }
+   
+  .section-top span{
+    color: #4adf86;;
+  }
+
+  button{
+  background:#4ADF86;
+  color:white;
+  border:none;
+  }
+
+  hr{
+    color:#2F3E53;
+    
+  }
+
+  .section-bottom{
+    margin-bottom:10%;
+  }
+  input{
+    background:#2F3E53;
+    border: none;
+  }
