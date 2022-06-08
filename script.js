@@ -3,7 +3,7 @@ const alphabet = "abcdefghijklmnopqrstuvwxyz"
 function generate() {
   for (let i = 1; i < 5; i++) { 
   let inputBlock = document.getElementById(`text-${i}`)
-  inputBlock.value= createPassword()
+  inputBlock.value= createPassword().toUpperCase()
 }  
 }
 
@@ -18,6 +18,11 @@ while (i < 8) {
     counter.push(letter)
   i++;
 }
-  counter.join()
-    return counter
+  const array1 = [1, 2, 'a', '1a'];
+  console.log(array1)
+console.log(typeof array1)
+
+console.log(array1.join(''));
+  console.log("tipo", typeof counter)
+  return counter.join('')
 }
