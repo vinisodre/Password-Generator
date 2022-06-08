@@ -17,29 +17,73 @@ html, body {
 
 }
 
- .section-top{
+ .section-top {
+   font-family:Karla;
+   font-size: 40px;
+   Letter-spacing: -2.5%;
+Line-height: 0.86;
   margin-top: 20%;
  }
    
-  .section-top span{
-    color: #4adf86;;
+  .section-top span {
+    color: #4adf86;
+  }
+  .subheadline {
+    font-family:Inter;
+    font-weight:400;
+    font-size:20px;
+    Line height: 28px;
+  Line height: 116%;
   }
 
-  button{
-  background:#4ADF86;
+  button {
+    cursor:pointer;
   color:white;
   border:none;
+  margin-top:52px;
+  background:#4adf86;
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 17px 9px 15px;
+gap: 12px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+border-radius: 6px;
+
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
   }
 
+  button:hover{
+     background:#064E3B;
+  }
+
+    
   hr{
+    margin:30px 0;
     color:#2F3E53;
     
   }
 
   .section-bottom{
     margin-bottom:10%;
+    display:flex;
+    flex-wrap: wrap;
+    gap:24px;
   }
-  input{
+
+  input[type=text] {
+    text-align:center;
+    color:#4adf86;
     background:#2F3E53;
     border: none;
+    background-image: url('Icon.svg');
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 6px;
+    height: 39px;
   }
